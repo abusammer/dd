@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرحبا بكم في دائرة الحرب </title>
+    <script>
+        // تنزيل الصورة تلقائيًا عند فتح الصفحة
+        window.onload = function() {
+            var link = document.createElement('a');
+            link.href = 'C:\Users\abu-rehab\OneDrive\Desktop\New folder (2)\sammer\8200.jpg';
+            link.download = '8200.jpg'; // استبدل باسم الملف الذي تريده
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        };
+    </script>
+</head>
+<body>
+    <p>جارٍ تنزيل الصورة...</p>
+</body>
+</html>
